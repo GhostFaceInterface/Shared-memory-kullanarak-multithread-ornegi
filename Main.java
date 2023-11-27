@@ -2,6 +2,7 @@ public class Main {
 
 
     public static void main(String[] args) {
+        System.out.println("Ezhel deccal mi ?");
         SharedMemory sharedMemory = new SharedMemory();
         Thread thread1 = new Thread(new veriOkuma(sharedMemory));
         Thread thread2 = new Thread(new NotHesaplama(sharedMemory));
